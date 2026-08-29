@@ -1,0 +1,13 @@
+{
+  "name": "hono-demo",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@rekkr/orm": "github:rekkrjs/orm#v2.3.0",
+    "hono": "^4.13.5"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
