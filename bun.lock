@@ -5,8 +5,8 @@
     "": {
       "name": "hono-demo",
       "dependencies": {
-        "@rekkr/orm": "github:rekkrjs/orm#v2.3.0",
-        "hono": "^4.13.5",
+        "@rekkr/orm": "github:rekkrjs/orm#v3.1.2",
+        "hono": "^4.13.8",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -14,7 +14,7 @@
     },
   },
   "packages": {
-    "@rekkr/orm": ["@rekkr/orm@github:rekkrjs/orm#33ab238", { "peerDependencies": { "@sveltejs/kit": "^2.0.0" }, "optionalPeers": ["@sveltejs/kit"], "bin": { "orm": "./bin/orm.ts" } }, "rekkrjs-orm-33ab238", "sha512-qV8h7MsB+cf1m8Sd0JjKyfKp1El6XEYl1MiGpmJp4WCyVlzLMAiXFjaPAEfvHql5lgijd3oNDHVExtnWtIsoUg=="],
+    "@rekkr/orm": ["@rekkr/orm@github:rekkrjs/orm#724d2df", { "peerDependencies": { "@sveltejs/kit": "^2.0.0" }, "optionalPeers": ["@sveltejs/kit"], "bin": { "orm": "./bin/orm.ts" } }, "rekkrjs-orm-724d2df", "sha512-NHvIpmErRMzIFsU1S0F+gmJT9m8l1hf9Fm7lVEzteomBPKyzgpuUGxeaHx/w4mR3TSqAVhQhcEk+NMQ711uCpA=="],
 
     "@types/bun": ["@types/bun@1.4.0", "", { "dependencies": { "bun-types": "1.4.0" } }, "sha512-K+lZULY23vRgK/CfTjFIV+tyifaNdSMlPh9j+6mQ/cLfpOznLyAuzgV/JQysyECpkBQLVMSyvjlr2fBUSA9wFQ=="],
 
@@ -22,7 +22,7 @@
 
     "bun-types": ["bun-types@1.4.0", "", { "dependencies": { "@types/node": "*" } }, "sha512-iIKw23BspnQQYd3prITOBxeUsxBHnwzX6YJfGMuNOZzeNcMmVqzIIVGRm1l69ogaPQmb4wB6BN8mA5bE9YuC5Q=="],
 
-    "hono": ["hono@4.13.5", "", {}, "sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw=="],
+    "hono": ["hono@4.13.8", "", {}, "sha512-/Gng7NfoykZl2pjukW5Z6+8Yxm3BPRf86GTbQnt0SbySkvax4fyL4H3HhY1cCpBGmiW9XDRFzRV+CXK2W8QudQ=="],
 
     "undici-types": ["undici-types@8.3.0", "", {}, "sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ=="],
   }
