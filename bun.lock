@@ -5,7 +5,7 @@
     "": {
       "name": "hono-demo",
       "dependencies": {
-        "@rekkr/orm": "github:rekkrjs/orm#v3.1.2",
+        "@rekkr/orm": "^5.0.1",
         "hono": "^4.13.8",
       },
       "devDependencies": {
@@ -14,7 +14,7 @@
     },
   },
   "packages": {
-    "@rekkr/orm": ["@rekkr/orm@github:rekkrjs/orm#724d2df", { "peerDependencies": { "@sveltejs/kit": "^2.0.0" }, "optionalPeers": ["@sveltejs/kit"], "bin": { "orm": "./bin/orm.ts" } }, "rekkrjs-orm-724d2df", "sha512-NHvIpmErRMzIFsU1S0F+gmJT9m8l1hf9Fm7lVEzteomBPKyzgpuUGxeaHx/w4mR3TSqAVhQhcEk+NMQ711uCpA=="],
+    "@rekkr/orm": ["@rekkr/orm@5.0.1", "", { "peerDependencies": { "@sveltejs/kit": "^2.0.0", "ioredis": "^5.4.0 || ^6.0.0", "mysql2": "^3.11.0", "pg": "^8.21.0" }, "optionalPeers": ["@sveltejs/kit", "ioredis", "mysql2", "pg"], "bin": { "orm": "bin/orm.mjs" } }, "sha512-M07FchdnvxbZyKvWtGnW0YO2HChphZybM1ULMkKXcIF4wzvvA4Tvj7TcGataxSC5haLiW5q2Y4lOi6IrSF77uw=="],
 
     "@types/bun": ["@types/bun@1.4.0", "", { "dependencies": { "bun-types": "1.4.0" } }, "sha512-K+lZULY23vRgK/CfTjFIV+tyifaNdSMlPh9j+6mQ/cLfpOznLyAuzgV/JQysyECpkBQLVMSyvjlr2fBUSA9wFQ=="],
 
